@@ -1,0 +1,35 @@
+.header {
+    background: #fff;
+    padding: 20px;
+}
+.headerStructure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchArea {
+    position: relative;
+}
+.searchIcon {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    color: #888;
+    width: 15px;
+}
+.searchArea input {
+    padding: 5px;
+    width: 400px;
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+    padding-left: 30px;
+    font-weight: 400;
+    transition: all ease 300ms;
+}
+.searchArea input:focus {
+    background: #fff;
+}

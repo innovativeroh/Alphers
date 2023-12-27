@@ -5,7 +5,9 @@ const HomePage = () =>{
   return(
     <div>
       <Header/>
-      <h1>home page</h1>
+      <div id="wrapper">
+      <h1>Content Here</h1>
+      </div>
     </div>
   );
 }
